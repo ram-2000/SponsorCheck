@@ -1,0 +1,14 @@
+{
+    "name" : "Trackers",
+    "version" : "1.0.0",
+    "description" : "Just a normal tracker for all the jobs",
+    "manifest_version" : 3,
+    "author(s)" : "Abhiram Maddala, Madhuri Chinthala",
+    "permissions": ["tabs", "activeTab"],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["script.js"]
+        }
+      ]
+}
